@@ -1,4 +1,7 @@
-.background-image {
-    background-image: url("/media/mr-duke-logo.png");
+.navbar-inner{
+    background-image: url('/media/tag2.JPG');
+    background-repeat: repeat-x;
     height: 100vh;
-}
+    top: 50%;
+    padding: 5px;
+  }
