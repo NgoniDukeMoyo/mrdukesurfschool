@@ -1,7 +1,9 @@
 .navbar-inner{
-    background-image: url('/media/tag2.JPG');
-    background-repeat: repeat-x;
-    height: 100vh;
+    background-image: url('/media/tag8.JPG');
+    background-repeat: no-repeat;
+    height: 50vh;
     top: 50%;
     padding: 5px;
+    background-size: cover;
+    background-position: center right;
   }
