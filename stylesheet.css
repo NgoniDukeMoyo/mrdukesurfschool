@@ -7,3 +7,8 @@
     background-size: cover;
     background-position: center right;
   }
+.info{
+  float: center;
+  text-align: center;
+}
+
