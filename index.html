@@ -16,13 +16,14 @@
 
 <body>
   <!--Bootstrap temp Nav Bar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-inner navbar-default navbar-fixed-top container-fluid">
+  <nav
+    class="navbar navbar-expand-lg navbar-light bg-light navbar-inner navbar-default navbar-fixed-top container-fluid">
 
     <!--Background video-->
     <!--<div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" src="/media/video1.MP4"></iframe></div>
-        -->
-    
+  <iframe class="embed-responsive-item" src="/media/video1.MP4"></iframe></div>
+    -->
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -41,66 +42,93 @@
             </span>
           </a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-calendar me-3"></i>Bookings</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-shopping-bag me-3"></i>Products
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Shirts</a>
+            <a class="dropdown-item" href="#">Caps</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Ponjos</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#"><i class="fas fa-images me-3"></i>Gallery</a>
+        </li>
       </ul>
-    </div>
-    <!--Drop Down Menu-->
-    <li class="nav-item">
-      <a class="nav-link" href="#"><i class="fas fa-calendar me-3"></i>Bookings</a>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-        aria-haspopup="true" aria-expanded="false">
-        <i class="fas fa-shopping-bag me-3"></i>Products
-      </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="#">Shirts</a>
-        <a class="dropdown-item" href="#">Caps</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Ponjos</a>
-      </div>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled" href="#"><i class="fas fa-images me-3"></i>Gallery</a>
-    </li>
-    </ul>
 
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
+
   </nav>
-<!--info-->
-    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+  <!--info-->
+  <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
-  <div class="container-fluid"><h1 class="info">ABOUT US</h1></div>
+  <!---<div class="container-fluid"><h1 class="info">ABOUT US</h1></div> -->
 
-    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+  <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
-    <!--About us info box-->
+  <!--About us info box-->
 
-    <div class="container info-box col-6">
-
-    <p>Mister Duke Surf School is a mobile surf School that is commited to sharing the love of the ocean and stoked to
-      all. We create a space for you to build confidence, belief and an experience of riding a wave than can not be explained
-      while letting mother nature heal you through her waters. We are with you every step of the way, from teaching you the 
-      techniques to riding the waves. With us you can enjoy a relaxed surf atmosphere community and learn everything about 
-      surfing under the guidance of experienced and professional surf instructors</p>
-  
-  <div class="card col-6" style="width: 18rem;">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="container info-box">
+        <div class="card" style="width: 100%;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">ABOUT US</h5>
+            <p class="card-text">Mister Duke Surf School is a mobile surf School that is commited to sharing the love of
+              the ocean and stoked to
+              all. We create a space for you to build confidence, belief and an experience of riding a wave than can not
+              be explained
+              while letting mother nature heal you through her waters. We are with you every step of the way, from
+              teaching you the
+              techniques to riding the waves. With us you can enjoy a relaxed surf atmosphere community and learn
+              everything about
+              surfing under the guidance of experienced and professional surf instructors
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="container info-box">
+        <div class="card" style="width: 100%;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">ABOUT US</h5>
+            <p class="card-text">Mister Duke Surf School is a mobile surf School that is commited to sharing the love of
+              the ocean and stoked to
+              all. We create a space for you to build confidence, belief and an experience of riding a wave than can not
+              be explained
+              while letting mother nature heal you through her waters. We are with you every step of the way, from
+              teaching you the
+              techniques to riding the waves. With us you can enjoy a relaxed surf atmosphere community and learn
+              everything about
+              surfing under the guidance of experienced and professional surf instructors
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
 
   <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
   <!--displays-->
-  <div class="container-fluid"><h1 class="info">CHOOSE YOUR SURF LESSON</h1></div>
+  <div class="container-fluid">
+    <h1 class="info">CHOOSE YOUR SURF LESSON</h1>
+  </div>
   <div class="card-deck">
     <div class="card">
       <img class="card-img-top" src="/media/tag1.JPG" alt="Card image cap">
@@ -108,7 +136,7 @@
         <h5 class="card-title">Group Lessons</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
           content. This content is a little bit longer.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
     <div class="card">
@@ -125,7 +153,7 @@
         <h5 class="card-title">Organisations</h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
           This card has even longer content than the first to show that equal height action.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
   </div>
@@ -133,32 +161,30 @@
   <!--booking-->
   <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
-  <a href="#"><h1 class="info">BOOK YOUR LESSON</h1></a>
-
   <!--Footer-->
   <footer class="text-center text-lg-start bg-light text-muted">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <!-- Left -->
-      <div class="me-5 d-none d-lg-block">
+      <div class="me-5 d-none d-lg-block" style="color: #FF5733; font-size: 30px;">
         <span>Connected with us on our social networks:</span>
       </div>
       <!-- Left -->
 
       <!-- Right -->
       <div>
-        <a href="https://www.facebook.com/" target="_blank" class="me-4 text-reset">
+        <a href="https://www.facebook.com/" target="_blank" class="me-4 text-amber" style="font-size: 30px; color: #FFC300;">
           <i class="fab fa-facebook-f"></i>
         </a>
-        <a href="https://www.youtube.com/" target="_blank" class="me-4 text-reset">
+        <a href="https://www.youtube.com/" target="_blank" class="me-4 text-reset" style="font-size: 30px; color: #FFC300;">
           <i class="fab fa-youtube"></i>
         </a>
-        
-        <a href="https://www.instagram.com/" target="_blank" class="me-4 text-reset">
+
+        <a href="https://www.instagram.com/" target="_blank" class="me-4 text-reset" style="font-size: 30px; color: #FFC300;">
           <i class="fab fa-instagram"></i>
         </a>
-        
-        
+
+
       </div>
       <!-- Right -->
     </section>
@@ -170,19 +196,18 @@
         <!-- Grid row -->
         <div class="row mt-3">
           <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
             <!-- Content -->
             <h6 class="text-uppercase fw-bold mb-4">
-              <div class="logo-image">
+              <div class="logo-image move-left">
                 <img src="/media/mr-duke-logo.png" class="img-fluid" alt="website logo" width="200" height="200">
               </div>
             </h6>
-            
           </div>
           <!-- Grid column -->
 
           <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">
               Products
@@ -193,28 +218,26 @@
             <p>
               <a href="#!" class="text-reset">T-Shirts</a>
             </p>
-            
           </div>
           <!-- Grid column -->
 
           <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-3">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
             <!-- Links -->
-           
             <h6 class="text-uppercase fw-bold mb-4">
               Our Community Outreach Efforts
             </h6>
             <p>
-            Realising that the ocean has an incredible ability to heal, restore, releave and bring joy, we as an organisation strive to share this with those are not given the opportunity to expewrience this
-            due to disabilities, old age or financially out of reach. We do this to share the beauty of the ocean and its power.
+              Realising that the ocean has an incredible ability to heal, restore, releave and bring joy, we as an
+              organisation strive to share this with those are not given the opportunity to expewrience this due to
+              disabilities, old age or financially out of reach. We do this to share the beauty of the ocean and its
+              power.
             </p>
           </div>
-        
-        
           <!-- Grid column -->
 
           <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">
               Contact
@@ -225,10 +248,12 @@
               mrdukesurf@gmail.com
             </p>
             <p><i class="fas fa-duotone fa-phone me-3"></i></i> +31 64 231 6253</p>
-            
+            <p><i class="fas fa-solid fa-building me-3"></i></i> KVK : 86269615</p>
           </div>
           <!-- Grid column -->
         </div>
+        <!-- Grid row -->
+
         <!-- Grid row -->
       </div>
     </section>

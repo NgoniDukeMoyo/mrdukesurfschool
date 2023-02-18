@@ -1,17 +1,21 @@
 .navbar-inner{
-    background-image: url('/media/tag8.JPG');
-    background-repeat: no-repeat;
-    height: 50vh;
-    top: 50%;
-    padding: 5px;
-    background-size: cover;
-    background-position: center right;
+  background-image: url('/media/tag8.JPG');
+  background-repeat: no-repeat;
+  height: 70vh; /* adjust the position of image up and down*/
+  top: 50%;
+  padding: 5px;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
   }
-.info{
-  float: center;
-  text-align: center;
-}
 
-.info-box{
+  .move-left {
+    margin-right: 0px; /* adjust this value to move the image further to the left */
+    }
+  .info{
+  text-align: center;
+  }
+  
+  .info-box{
   padding: 50px;
-}
+  }
