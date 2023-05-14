@@ -16,7 +16,7 @@
   <title>Mr Duke Surf School</title>
 </head>
 
-<body>
+<body style="background-image:linear-gradient(#5F9EA0, #FFA500);">
   <!--Bootstrap temp Nav Bar-->
   <nav
     class="navbar navbar-expand-lg navbar-light bg-light navbar-inner navbar-default navbar-fixed-top container-fluid">
@@ -107,12 +107,12 @@
     </nav>
   </div> 
 
-  <!--Booking Form Bootstrap-->
+  <!--Booking Form Bootstrap with formspree validation-->
   <div class="container mt-3 pt-3 b-background">
         <div class="row">
             <div class="col-12">
                 <div class="card p-3 bg-form">
-                    <form class="row g-3">
+                    <form class="row g-3" action="https://formspree.io/f/xwkjzqer" method="POST">
                         <div class="col-12">
                             <h1 class="text-center fw-bolder text-white mt-3">Book Your Lesson With Us</h1>
                             <hr>
@@ -124,13 +124,13 @@
                         </div>-->
                         <div class="col-12">
                             <div class="form-floating">
-                                <input type="text" autocomplete="off" class="form-control bg-light " id="inputName" placeholder="Name">
+                                <input type="text" autocomplete="off" class="form-control bg-light " id="inputName" placeholder="Name" name="username" required>
                                 <label for="inputName">Name</label>
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
                             <div class="form-floating">
-                                <input type="email" class="form-control bg-light " id="inputEmail4" placeholder="Informe seu e-mail">
+                                <input type="email" class="form-control bg-light " id="inputEmail4" placeholder="Informe seu e-mail" name="email" required>
                                 <label for="inputEmail4">Email address</label>
                             </div>
                         </div>
@@ -154,7 +154,7 @@
                         </div>-->
                         <div class="col-md-4">
                             <div class="form-floating">
-                                <select id="inputState" class="form-select bg-light">
+                                <select id="inputState" class="form-select bg-light" name="lessons" required>
                                     <option selected>Choose...</option>
                                     <option>Private Lesson</option>
                                     <option>Group Lesson</option>
@@ -174,7 +174,10 @@
                                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height:100px"></textarea>
                                 <label for="floatingTextarea">Comments</label>
                             </div>
+                            <button class="btn btn-primary" type="submit">Submit form</button>
                         </div>
+                        <!--Submit button-->
+                        
                         <!--<div class="col-12">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" id="gridCheck">
